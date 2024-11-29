@@ -1,5 +1,6 @@
-import { generateNewDate } from "../../utilities/generate-date";
-import { generateUUID } from "../../utilities/generate-uuid";
+import { generateNewDate } from "../../../utilities/generate-date";
+import { generateUUID } from "../../../utilities/generate-uuid";
+
 
 export class AccessToken {
   public readonly id?: string = generateUUID().id;

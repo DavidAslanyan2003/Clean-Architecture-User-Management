@@ -1,4 +1,5 @@
-import { Email } from "../../../domain/value-objects/email.value-object";
+import { Email } from "../../../../domain/value-objects/email.value-object";
+
 
 export interface UpdateUserDto {
   firstName: string;
