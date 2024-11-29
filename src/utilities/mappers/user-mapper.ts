@@ -1,5 +1,5 @@
-import { ReadUserResultDto } from "../../application/commands/dtos/output/read-user-result.dto";
-import { User } from "../../domain/entities/user.entity";
+import { ReadUserResultDto } from "../../auth/application/commands/dtos/output/read-user-result.dto";
+import { User } from "../../auth/domain/entities/user.entity";
 
 
 export const mapUserData = (userData: User): ReadUserResultDto => {

@@ -1,6 +1,6 @@
+import { generateNewDate } from "../../../utilities/generate-date";
+import { generateUUID } from "../../../utilities/generate-uuid";
 import { UserStatus } from "../../presentation/enums/user-status.enum";
-import { generateNewDate } from "../../utilities/generate-date";
-import { generateUUID } from "../../utilities/generate-uuid";
 import { Email } from "../value-objects/email.value-object";
 
 export class User {

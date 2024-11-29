@@ -1,4 +1,4 @@
-import { STATUS } from "../presentation/enums/status.enum";
+import { STATUS } from "../auth/presentation/enums/status.enum";
 
 export class CustomResponse {
   constructor(

@@ -1,6 +1,6 @@
 import { Router, Request, Response } from 'express';
 import { UserDbModelService } from '../../domain/services/user-db-model.service';
-import { CustomResponse } from '../../utilities/custom-response';
+import { CustomResponse } from '../../../utilities/custom-response';
 import { STATUS } from '../enums/status.enum';
 import { GetUsersListHandler } from '../../application/queries/handlers/get-users-list.handler';
 import { ReadUsersListRepositoryHandler } from '../../infrastructure/repositories/queries/read-users-list.repository';

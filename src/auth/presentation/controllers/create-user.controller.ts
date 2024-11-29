@@ -1,7 +1,6 @@
 import { Router, Request, Response } from 'express';
 import { CreateUserDto } from '../../application/commands/dtos/input/create-user.dto';
 import { UserDbModelService } from '../../domain/services/user-db-model.service';
-import { CustomResponse } from '../../utilities/custom-response';
 import { STATUS } from '../enums/status.enum';
 import { JwtService } from '../../infrastructure/services/jwt.service';
 import { AccessTokenDbModelService } from '../../domain/services/access-token-db-model.service';
@@ -9,6 +8,7 @@ import { CreateUserHandler } from '../../application/commands/handlers/create-us
 import { CreateUserCommand } from '../../application/commands/create-user.command';
 import { CreateUserRepositoryHandler } from '../../infrastructure/repositories/commands/create-user.repository';
 import { SaveAccessTokenRepositoryHandler } from '../../infrastructure/repositories/commands/save-access-token.repository';
+import { CustomResponse } from '../../../utilities/custom-response';
 
 const router = Router();
 
