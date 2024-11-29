@@ -1,10 +1,10 @@
 import { Router, Request, Response } from 'express';
 import { UserDbModelService } from '../../domain/services/user-db-model.service';
-import { CustomResponse } from '../../utilities/custom-response';
 import { STATUS } from '../enums/status.enum';
 import { GetUserQuery } from '../../application/queries/get-user.query';
 import { GetUserHandler } from '../../application/queries/handlers/get-user.handler';
 import { ReadUserRepositoryHandler } from '../../infrastructure/repositories/queries/read-user.repository';
+import { CustomResponse } from '../../../utilities/custom-response';
 
 
 const router = Router();

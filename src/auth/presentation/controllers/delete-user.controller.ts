@@ -1,6 +1,6 @@
 import { Router, Request, Response } from 'express';
 import { UserDbModelService } from '../../domain/services/user-db-model.service';
-import { CustomResponse } from '../../utilities/custom-response';
+import { CustomResponse } from '../../../utilities/custom-response';
 import { STATUS } from '../enums/status.enum';
 import { DeleteUserCommand } from '../../application/commands/delete-user.command';
 import { DeleteUserHandler } from '../../application/commands/handlers/delete-user.handler';

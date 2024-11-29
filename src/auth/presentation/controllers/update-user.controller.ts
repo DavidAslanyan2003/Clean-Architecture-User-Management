@@ -1,6 +1,5 @@
 import { Router, Request, Response } from 'express';
 import { UserDbModelService } from '../../domain/services/user-db-model.service';
-import { CustomResponse } from '../../utilities/custom-response';
 import { STATUS } from '../enums/status.enum';
 import { JwtService } from '../../infrastructure/services/jwt.service';
 import { AccessTokenDbModelService } from '../../domain/services/access-token-db-model.service';
@@ -9,6 +8,7 @@ import { UpdateUserCommand } from '../../application/commands/update-user.comman
 import { UpdateUserHandler } from '../../application/commands/handlers/update-user.handler';
 import { SaveAccessTokenRepositoryHandler } from '../../infrastructure/repositories/commands/save-access-token.repository';
 import { UpdateUserRepositoryHandler } from '../../infrastructure/repositories/commands/update-user.repository';
+import { CustomResponse } from '../../../utilities/custom-response';
 
 const router = Router();
 

@@ -1,6 +1,6 @@
+import { mapUserData } from "../../../utilities/mappers/user-mapper";
 import { ReadUserResultDto } from "../../application/commands/dtos/output/read-user-result.dto";
 import { UserStatus } from "../../presentation/enums/user-status.enum";
-import { mapUserData } from "../../utilities/mappers/user-mapper";
 import { User } from "../entities/user.entity";
 import { Email } from "../value-objects/email.value-object";
 
